@@ -1,5 +1,17 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Storyshots Atoms/Button Buy Sell Button 1`] = `
+<div
+  className="sc-bdvvtL gGYjnV"
+>
+  <button
+    onClick={[Function]}
+  >
+    Buy / Sell
+  </button>
+</div>
+`;
+
 exports[`Storyshots Atoms/Button Large 1`] = `
 <button
   className="storybook-button storybook-button--large storybook-button--secondary"
@@ -42,7 +54,84 @@ exports[`Storyshots Atoms/Button Secondary 1`] = `
 </button>
 `;
 
+exports[`Storyshots Atoms/Button Send Receive Button 1`] = `
+<button
+  className="sc-bdvvtL gMJvLD"
+  onClick={[Function]}
+>
+  Send / Receive
+</button>
+`;
+
 exports[`Storyshots Atoms/Button Small 1`] = `
+<button
+  className="storybook-button storybook-button--small storybook-button--secondary"
+  style={
+    Object {
+      "backgroundColor": undefined,
+    }
+  }
+  type="button"
+>
+  Button
+</button>
+`;
+
+exports[`Storyshots Atoms/Button Standard 1`] = `
+<div
+  className="sc-bdvvtL gGYjnV"
+>
+  <button
+    onClick={[Function]}
+  >
+    Standard Button
+  </button>
+</div>
+`;
+
+exports[`Storyshots Atoms/SampleButton Large 1`] = `
+<button
+  className="storybook-button storybook-button--large storybook-button--secondary"
+  style={
+    Object {
+      "backgroundColor": undefined,
+    }
+  }
+  type="button"
+>
+  Button
+</button>
+`;
+
+exports[`Storyshots Atoms/SampleButton Primary 1`] = `
+<button
+  className="storybook-button storybook-button--medium storybook-button--primary"
+  style={
+    Object {
+      "backgroundColor": undefined,
+    }
+  }
+  type="button"
+>
+  Button
+</button>
+`;
+
+exports[`Storyshots Atoms/SampleButton Secondary 1`] = `
+<button
+  className="storybook-button storybook-button--medium storybook-button--secondary"
+  style={
+    Object {
+      "backgroundColor": undefined,
+    }
+  }
+  type="button"
+>
+  Button
+</button>
+`;
+
+exports[`Storyshots Atoms/SampleButton Small 1`] = `
 <button
   className="storybook-button storybook-button--small storybook-button--secondary"
   style={
