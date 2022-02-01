@@ -1,7 +1,7 @@
-import React from 'react';
-import { ThemeProvider } from 'styled-components';
-import { theme } from '../src/theme';
-import GlobalStyle from '../src/globalStyle';
+import React from "react";
+import { ThemeProvider } from "styled-components";
+import { theme } from "../src/theme";
+import GlobalStyle from "../src/globalStyle";
 
 export const parameters = {
   actions: { argTypesRegex: "^on[A-Z].*" },
@@ -14,20 +14,20 @@ export const parameters = {
   options: {
     showPanel: true,
     storySort: {
-      method: 'alphabetical',
+      method: "alphabetical",
       order: [
-        'Documentation',
-        ['Read Me', 'Changelog', 'Migration'],
-        'Atoms',
-        'Molecules',
-        'Organisms',
-        'Templates',
-        'Pages',
-        'Data Visualization'
-      ]
-    }
-  }
-}
+        "Documentation",
+        ["Read Me", "Changelog", "Migration"],
+        "Atoms",
+        "Molecules",
+        "Organisms",
+        "Templates",
+        "Pages",
+        "Data Visualization",
+      ],
+    },
+  },
+};
 
 export const decorators = [
   (Story) => (

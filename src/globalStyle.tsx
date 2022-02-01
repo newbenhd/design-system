@@ -1,5 +1,5 @@
-import React from 'react';
-import { createGlobalStyle } from 'styled-components';
+import React from "react";
+import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
     :root {
@@ -229,5 +229,5 @@ const GlobalStyle = createGlobalStyle`
     --spacing-0\.5: 4px;
     --spacing-1: 8px;
     }
-`
+`;
 export default GlobalStyle;
