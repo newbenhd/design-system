@@ -2,7 +2,7 @@
 
 exports[`Storyshots Atoms/Button Buy Sell Button 1`] = `
 <div
-  className="sc-bdvvtL gGYjnV"
+  className="sc-bdvvtL hlwdeg"
 >
   <button
     onClick={[Function]}
@@ -12,79 +12,38 @@ exports[`Storyshots Atoms/Button Buy Sell Button 1`] = `
 </div>
 `;
 
-exports[`Storyshots Atoms/Button Large 1`] = `
-<button
-  className="storybook-button storybook-button--large storybook-button--secondary"
-  style={
-    Object {
-      "backgroundColor": undefined,
-    }
-  }
-  type="button"
->
-  Button
-</button>
-`;
-
 exports[`Storyshots Atoms/Button Primary 1`] = `
-<button
-  className="storybook-button storybook-button--medium storybook-button--primary"
-  style={
-    Object {
-      "backgroundColor": undefined,
-    }
-  }
-  type="button"
->
-  Button
-</button>
-`;
-
-exports[`Storyshots Atoms/Button Secondary 1`] = `
-<button
-  className="storybook-button storybook-button--medium storybook-button--secondary"
-  style={
-    Object {
-      "backgroundColor": undefined,
-    }
-  }
-  type="button"
->
-  Button
-</button>
-`;
-
-exports[`Storyshots Atoms/Button Send Receive Button 1`] = `
-<button
-  className="sc-bdvvtL gMJvLD"
-  onClick={[Function]}
->
-  Send / Receive
-</button>
-`;
-
-exports[`Storyshots Atoms/Button Small 1`] = `
-<button
-  className="storybook-button storybook-button--small storybook-button--secondary"
-  style={
-    Object {
-      "backgroundColor": undefined,
-    }
-  }
-  type="button"
->
-  Button
-</button>
-`;
-
-exports[`Storyshots Atoms/Button Standard 1`] = `
 <div
-  className="sc-bdvvtL gGYjnV"
+  className="sc-bdvvtL hlwdeg"
 >
   <button
     onClick={[Function]}
   >
-    Standard Button
+    Button
+  </button>
+</div>
+`;
+
+exports[`Storyshots Atoms/Button Send Receive Button 1`] = `
+<div
+  className="sc-bdvvtL sc-gsDKAQ hlwdeg kfnOPG"
+>
+  <button
+    onClick={[Function]}
+  >
+    Send / Receive
+  </button>
+</div>
+`;
+
+exports[`Storyshots Atoms/Button Small 1`] = `
+<div
+  className="sc-bdvvtL hlwdeg"
+>
+  <button
+    onClick={[Function]}
+  >
+    Small Button
   </button>
 </div>
 `;
