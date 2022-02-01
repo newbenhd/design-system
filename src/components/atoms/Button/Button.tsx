@@ -16,8 +16,7 @@ const Button: React.FC<IProps> = ({
   if (type === "secondary")
     return (
       <SecondaryStyled>
-
-<button onClick={onClick}>{label}</button>
+        <button onClick={onClick}>{label}</button>
       </SecondaryStyled>
     );
   return (
