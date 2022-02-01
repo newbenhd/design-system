@@ -34,7 +34,8 @@
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public",
     "chromatic": "npx chromatic",
-    "format": "prettier --write"
+    "format": "prettier --write",
+    "prepare": "husky install"
   },
   "eslintConfig": {
     "extends": [
@@ -63,11 +64,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
   },
   "devDependencies": {
     "@storybook/addon-a11y": "^6.4.17",
