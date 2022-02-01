@@ -7,8 +7,8 @@ const usePageBottomThrottle = () => {
   const handleScroll = useMemo(() => {
     // best practice to reduce the notifications of an event that fires multiple times like the window
     // scroll event, we can use a throttled set event listener. You can also use debounce.
-    return throttle(() => {
-      () => {
+    return throttle(
+      () => () => {
         // The HTMLElement.offsetHeight read-only property returns the height of an element, including
         // vertical padding and borders, as an integer.
         const offsetHeight = document.documentElement.offsetHeight;
@@ -22,8 +22,9 @@ const usePageBottomThrottle = () => {
         // if current scroll from bottom is less than equal to 10px
         const reachingBottom = offsetHeight - (innerHeight + scrollTop) <= 10;
         setReachedBottom(reachingBottom);
-      };
-    }, 1000);
+      },
+      1000
+    );
   }, []);
 
   // effect for binding event listener on window scroll

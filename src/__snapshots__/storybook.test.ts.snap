@@ -104,6 +104,24 @@ exports[`Storyshots Atoms/SampleButton Small 1`] = `
 </button>
 `;
 
+exports[`Storyshots Molecules/SearchInput Default 1`] = `
+<div>
+  <SearchIcon.svg />
+  <input
+    placeholder="Search all"
+  />
+</div>
+`;
+
+exports[`Storyshots Molecules/SearchInput Search Assets 1`] = `
+<div>
+  <SearchIcon.svg />
+  <input
+    placeholder="Search all assets"
+  />
+</div>
+`;
+
 exports[`Storyshots Organisms/Header Logged In 1`] = `
 <header>
   <div
