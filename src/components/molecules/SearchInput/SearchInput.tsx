@@ -1,4 +1,4 @@
-import React, { useState, useCallback, useMemo } from "react";
+import React, { useState, useCallback, useMemo, Profiler } from "react";
 import SearchIcon from "../../assets/icons/SearchIcon";
 import styled from "styled-components";
 import useMarvelCharacters from "../../../utils/ui-hooks/useMarvelCharacters";

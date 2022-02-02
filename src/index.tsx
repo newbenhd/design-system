@@ -2,11 +2,16 @@ import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
+import ErrorBoundaries from "./utils/ui-hocs/ErrorBoundaries";
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <ErrorBoundaries
+    fallbackComponent={<p>Something went wrong...please try it again later</p>}
+  >
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>
+  </ErrorBoundaries>,
   document.getElementById("root")
 );
 
